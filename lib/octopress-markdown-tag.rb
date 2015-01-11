@@ -1,3 +1,5 @@
+require 'octopress-markdown-tag/version'
+
 module Octopress
   module Tags
     module Markdown

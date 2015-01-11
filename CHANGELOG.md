@@ -2,6 +2,10 @@
 
 ### 1.1.1 - 2015-01-11
 
+- Require version.
+
+### 1.1.0 - 2015-01-11
+
 - Added support for Octopress docs.
 
 ### 1.1.0 - 2014-05-22
