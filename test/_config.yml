@@ -1,7 +1,4 @@
 name: Your New Jekyll Site
 markdown: redcarpet
-source: source
-destination: site
-plugins: source/_plugins
 gems:
-  - jekyll-markdown-block
+  - octopress-markdown-tag

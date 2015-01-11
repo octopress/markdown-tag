@@ -1,6 +1,6 @@
-# Jekyll Markdown Block
+# Octopress Markdown Tag
 
-[![Gem Version](https://badge.fury.io/rb/jekyll-markdown-block.png)](http://badge.fury.io/rb/jekyll-markdown-block) [![Build Status](https://travis-ci.org/imathis/jekyll-markdown-block.png)](https://travis-ci.org/imathis/jekyll-markdown-block)
+[![Gem Version](https://badge.fury.io/rb/octopress-markdown-tag.png)](http://badge.fury.io/rb/octopress-markdown-tag) [![Build Status](https://travis-ci.org/octopress/markdown-tag.png)](https://travis-ci.org/octopress/markdown-tag)
 
 Why? Because you should be able to:
 
@@ -9,29 +9,24 @@ Why? Because you should be able to:
 
 ## Installation
 
-Add this line to your application's Gemfile under
-the :jekyll_plugins group:
+If you're using bundler add this gem to your site's Gemfile in the `:jekyll_plugins` group:
 
-```ruby
-group :jekyll_plugins do
-  gem 'jekyll-markdown-block'
-end
-```
+    group :jekyll_plugins do
+      gem 'octopress-markdown-tag'
+    end
 
-And then execute:
+Then install the gem with Bundler
 
     $ bundle
 
-Next add this to your plugins folder to automatically load any Jekyll plugins in your :jekyll_plugins group.
+Or install it manually:
 
-```ruby
-# in _plugins/bundler.rb
-require "bundler/setup"
-Bundler.require(:jekyll_plugins)
+    $ gem install octopress-markdown-tag
 
-```
+Then add the gem to your Jekyll configuration.
 
-Or you can just add a ruby file to your Jekyll plugins directory with the line `require "jekyll-markdown-block"`
+    gems:
+      -octopress-markdown-tag
 
 ## Usage
 
@@ -71,7 +66,7 @@ That's pretty much it. Have fun!
 
 ## Contributing
 
-1. Fork it
+1. Fork it (https://github.com/octopress/markdown-tag/fork)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

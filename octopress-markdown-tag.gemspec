@@ -1,19 +1,18 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll-markdown-block/version'
+require 'octopress-markdown-tag/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-markdown-block"
-  spec.version       = Jekyll::MarkdownBlockVersion::VERSION
+  spec.name          = "octopress-markdown-tag"
+  spec.version       = Octopress::Tags::Markdown::VERSION
   spec.authors       = ["Brandon Mathis"]
   spec.email         = ["brandon@imathis.com"]
-  spec.description   = %q{A Liquid Block which lets you use markdown in any Jekyll template.}
-  spec.summary       = %q{A Liquid Block which lets you use markdown in any Jekyll template.}
-  spec.homepage      = "https://github.com/imathis/jekyll-markdown-block"
+  spec.summary       = %q{Write markdown anywhere on your Jekyll site.}
+  spec.homepage      = "https://github.com/octopress/octopress-markdown-tag"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files`.split($/)
+  spec.files         = `git ls-files`.split("\n").grep(%r{^(bin\/|lib\/|assets\/|changelog|readme|license)}i)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
