@@ -5,7 +5,7 @@
 Why? Because you should be able to:
 
 - Write markdown anywhere.
-- {% include %} markdown files anywhere.
+- Process `{% include %}` tags with markdown.
 
 ## Installation
 
@@ -26,7 +26,7 @@ Or install it manually:
 Then add the gem to your Jekyll configuration.
 
     gems:
-      -octopress-markdown-tag
+      - octopress-markdown-tag
 
 ## Usage
 
