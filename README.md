@@ -30,7 +30,7 @@ Then add the gem to your Jekyll configuration.
 
 ## Usage
 
-#### Embed Markdown in HTML
+### Embed Markdown in HTML
 
 Drop some markdown in your html, and it will render nicely
 
@@ -50,7 +50,7 @@ Markdown in your `HTML`!
 </div>
 ```
 
-#### Convert includes with markdown 
+### Convert included partials with markdown 
 
 Correctly render markdown files which are included in an HTML page.
 
