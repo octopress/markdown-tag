@@ -30,7 +30,7 @@ if defined? Octopress::Docs
     name:        "Octopress Markdown Tag",
     gem:         "octopress-markdown-tag",
     version:     Octopress::Tags::Markdown::VERSION,
-    description: "A framework for writing Jekyll sites ",
+    description: "Write markdown anywhere with this simple liquid tag",
     path:        File.expand_path(File.join(File.dirname(__FILE__), "../")),
     source_url:  "https://github.com/octopress/markdown-tag"
   })
