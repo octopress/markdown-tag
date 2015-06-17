@@ -1,6 +1,6 @@
 # Octopress Markdown Tag
 
-[![Gem Version](https://badge.fury.io/rb/octopress-markdown-tag.png)](http://badge.fury.io/rb/octopress-markdown-tag) [![Build Status](https://travis-ci.org/octopress/markdown-tag.png)](https://travis-ci.org/octopress/markdown-tag)
+[![Gem Version](https://badge.fury.io/rb/octopress-markdown-tag.svg)](http://badge.fury.io/rb/octopress-markdown-tag) [![Build Status](https://travis-ci.org/octopress/markdown-tag.svg)](https://travis-ci.org/octopress/markdown-tag)
 
 Why? Because you should be able to:
 
